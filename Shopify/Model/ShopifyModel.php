@@ -3,7 +3,7 @@ $servername = "localhost";
 $username = "root";
 $password = "Dell143$";
 
-class CustomPDO {
+class ShopifyModel {
 	private $conn;
 	function __construct() {
 		try {
